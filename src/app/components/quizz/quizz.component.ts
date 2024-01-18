@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import quizz_questions from "../../../assets/data/quizz_questions.json"
 import pokemon_questions from "../../../assets/data/pokemon_questions.json"
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { Pokemon } from 'src/app/models/pokemonData';
@@ -102,9 +101,6 @@ export class QuizzComponent implements OnInit {
 
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
-
-      console.log(this.questionIndex)
-      console.log(this.questionMaxIndex)
     }
 
   }
@@ -153,12 +149,7 @@ export class QuizzComponent implements OnInit {
       default: 
         result = "D"
     }
-
-    console.log(anwserA);
-    console.log(anwserB);
-    console.log(anwserC)
-    console.log(highOcurrency)
-    
+        
     return result
   }
 
