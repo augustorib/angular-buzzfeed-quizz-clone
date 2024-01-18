@@ -43,7 +43,9 @@
       "options":[
         {"id": 1, "name":"Controlar a água", "alias":"A"},
         {"id": 2, "name":"Lançar chamas", "alias":"C"},
-        {"id": 3, "name":"Auto regenegar", "alias":"B"}
+        {"id": 3, "name":"Auto regenegar", "alias":"B"},
+        {"id": 4, "name":"Ficar Invisivel", "alias":"A"},
+        {"id": 5, "name":"Explodir coisas", "alias":"C"}
       ]
     }
   ],
