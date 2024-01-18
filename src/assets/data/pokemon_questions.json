@@ -1,0 +1,55 @@
+{
+  "title":"Qual tipo de Treinador você é ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Escolha seu primeiro pokemon ?",
+      "options":[
+        {"id": 1, "name":"Bulbasaur", "alias":"B"},
+        {"id": 2, "name":"Squirtle", "alias":"A"},
+        {"id": 3, "name":"Charmander", "alias":"C"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual o seu elemento preferido ?",
+      "options":[
+        {"id": 1, "name":"Fogo", "alias":"C"},
+        {"id": 2, "name":"Água", "alias":"A"},
+        {"id": 3, "name":"Folha", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "qual seu lugar preferido quando vai passear ?",
+      "options":[
+        {"id": 1, "name":"Montanhas e vulcão", "alias":"C"},
+        {"id": 2, "name":"Cachoeiras e Mar", "alias":"A"},
+        {"id": 3, "name":"Floretas e Jardins", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Qual o seu maior foco ?",
+      "options":[
+        {"id": 1, "name":"Preocupado com os recursos hídricos", "alias":"A"},
+        {"id": 2, "name":"É interessado em reflorestamento", "alias":"B"},
+        {"id": 3, "name":"É preocupado com o aquecimento global", "alias":"C"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Se você fosse um super herói qual super poder teria?",
+      "options":[
+        {"id": 1, "name":"Controlar a água", "alias":"A"},
+        {"id": 2, "name":"Lançar chamas", "alias":"C"},
+        {"id": 3, "name":"Auto regenegar", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você muito provavelmente seria um treinador de tipo Água!",
+    "B": "Você muito provavelmente seria um treinador de tipo Folha!",
+    "C": "Você muito provavelmente seria um treinador de tipo Fogo!"
+  }
+}
